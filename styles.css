@@ -1,0 +1,80 @@
+body{
+  background-image: url(bakgrund.jpg);
+  font-family: "Barlow Condensed", Arial, sans-serif;
+  color: white;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat", Arial, sans-serif;
+}
+
+article, aside, footer, nav {
+  border-radius: 10px;
+  padding: 1%;
+}
+
+nav a {
+  border-radius: 10px;
+}
+
+header img#logo {
+  width: 12%;
+  margin-right: 1%;
+}
+
+header img#pool{
+  width: 80%;
+  border-radius: 15px;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+a:link, a:visited {
+  color: green;
+}
+
+a:hover {
+  color: darkgreen;
+    text-decoration:underline;
+}
+
+footer {
+  text-align: center;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+article, aside, footer, nav {
+  border-radius: 15px;
+  padding: 1%;
+}

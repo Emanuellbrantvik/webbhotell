@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="widht=device-widht, initial-scale=1">
+    <title>Bright Hotell</title>
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <img id="logo" src="Hotell_logga.png" alt="logga" style="width: 350px;">
+    <img id="pool" src="Poolbild.jpg" alt="bild på hotellets pool" class="center">
+    <nav class="topnav" id="TopNav">
+      <a href="index.html">Start | </a>
+      <a href="hitta.html">Hitta till oss | </a>
+      <a href="boka.html">Boka hotellrum | </a>
+      <a href="kontakta.html">Kontakta oss | </a>
+      <a href="javascript:void(0);" style="font-size: 15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </nav>
+        <img src="Hotell_logga.png" alt="logga"  style="width: 200px;">
+        <h4>Bright Hotell</h4>
+    </header>
+
+    <div class="container">
+        <div id="bokform">
+            <h1>Boka här</h1>
+
+        </div>
+        <form action="index.html">
+            <div class="row">
+                <div class="col-20">
+                    <label for="förnamn">Förnamn</label>
+                </div>
+                <div class="col-80">
+                    <input type="text" id="förnamn" name="Förnamn" placeholder="Namn">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-20">
+                    <label for="efternamn">Efternamn</label>
+                </div>
+                <div class="col-80">
+                    <input type="text" id="efternamn" name="Efternamn" placeholder="Efternamn">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-20">
+                    <label id="mail">Email</label>
+                </div>
+                <div class="col-80">
+                    <input type="text" id="email" name="email" placeholder="exempel@mail.com">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-20">
+                    <label for="telefonnummer">Telefonnummer</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="telefonnummer" name="Telefonnummer" placeholder="Telefonnummer">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-20">
+                    <label id="rum">Rumstyp</label>
+                </div>
+                <div class="col-80">
+                    <select>
+                        <option value="En bäddsrum">Singelrum</option>
+                        <option value="Två bädd">Dubbelrum</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="subject">Övrigt</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Övrigt"
+                        style="height:200px"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Skicka">
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <p>Föreningsgatan 41, 211 50 Malmö | Bright Hotell </p>
+    </footer>
+</body>
+</html>
